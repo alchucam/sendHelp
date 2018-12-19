@@ -1,5 +1,5 @@
 # sendHelp
-CS 244P IoT Project: sendHelp <br/>
+CS 244P IoT Project <br/>
 Complete automative device that display your current GPS to Azure cloud when you are in danger based on your heartbeat.
 
 ## Getting Started
