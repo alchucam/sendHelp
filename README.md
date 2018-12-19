@@ -12,14 +12,14 @@ where you are unable to manually ask for help.
 
 The basis of this project is that during a dangerous situation, your heartbeat spikes up;
 thus, the sudden rises of heartbeat is used as a cue to create a seamlessly automative process to call for help.
+<br/>
+<br/>
 
 ### Prerequisites
 
 Hardware:
 Arduino Uno.
-
 SparkFun ESP 8266. 
-
 Arduino Components: SparkFun Particle Sensor Breakout (MAX30105), Grove LCD RGB Backlight screen, Buzzer v1.2, Button v1.2, SparkFun Mini GPS Shield.
 
 Software:
@@ -28,15 +28,10 @@ Microsoft Azure
 ### Setup
 
 SparkFun Particle Sensor Breakout (to measure user's heartbeat) is connect to Arduino Uno through I2C communication
-
 Grove LCD RGB Backlight Screen (to display user's current health situation) is connect to Arduino Uno through I2C communication
-
 Buzzer v1.2 (to provide auditary alarm in danger) is connect to Arduino Uno through I2C communication
-
 Button v1.2 (to manually turn off sendHelp signal by user's choice) is connect to Arduino Uno through I2C communication
-
 SparkFun Mini GPS (to provide user's current GPS) is connect to Arduino Uno through UART communication
-
 SparkFun ESP 8266 (to send data from Arduino Uno to cloud) is connect to Arduino Uno through UART communication
 
 Connection Images:
