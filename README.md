@@ -2,7 +2,7 @@
 CS 244P IoT Project <br/>
 Complete automative device that display your current GPS to Azure cloud when you are in danger based on your heartbeat.
 
-## Getting Started
+## Description
 
 This is a school project about IoT (Internet of Things).
 sendHelp works by collecting your heartbeat (BPM) from the fingertip,
