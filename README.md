@@ -16,7 +16,7 @@ thus, the sudden rises of heartbeat is used as a cue to create a seamlessly auto
 <br/>
 <br/>
 
-### Prerequisites
+## Prerequisites
 
 Hardware: <br/>
 - Arduino Uno. <br/>
@@ -26,7 +26,7 @@ Hardware: <br/>
 Software:
 - Microsoft Azure
 
-### Setup
+## Setup
 
 - SparkFun Particle Sensor Breakout (to measure user's heartbeat) is connect to Arduino Uno through I2C communication <br/>
 - Grove LCD RGB Backlight Screen (to display user's current health situation) is connect to Arduino Uno through I2C communication <br/>
