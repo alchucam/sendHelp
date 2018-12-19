@@ -71,3 +71,8 @@ webapp IoT is deployed to present the user's current BPM in real-time in a chart
 <img src="/images/48337129_278306983038770_9189661873635590144_n.jpg" width="100%">
 
 
+## Programming Language
+C++, Javascript
+
+## Tools/IDE
+Arduino IDE, Atom
