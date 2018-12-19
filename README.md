@@ -19,30 +19,30 @@ thus, the sudden rises of heartbeat is used as a cue to create a seamlessly auto
 ### Prerequisites
 
 Hardware: <br/>
-Arduino Uno. <br/>
-SparkFun ESP 8266.  <br/>
-Arduino Components: SparkFun Particle Sensor Breakout (MAX30105), Grove LCD RGB Backlight screen, Buzzer v1.2, Button v1.2, SparkFun Mini GPS Shield.
+- Arduino Uno. <br/>
+- SparkFun ESP 8266.  <br/>
+- Arduino Components: SparkFun Particle Sensor Breakout (MAX30105), Grove LCD RGB Backlight screen, Buzzer v1.2, Button v1.2, SparkFun Mini GPS Shield.
 
 Software:
-Microsoft Azure
+- Microsoft Azure
 
 ### Setup
 
-SparkFun Particle Sensor Breakout (to measure user's heartbeat) is connect to Arduino Uno through I2C communication <br/>
-Grove LCD RGB Backlight Screen (to display user's current health situation) is connect to Arduino Uno through I2C communication <br/>
-Buzzer v1.2 (to provide auditary alarm in danger) is connect to Arduino Uno through I2C communication <br/>
-Button v1.2 (to manually turn off sendHelp signal by user's choice) is connect to Arduino Uno through I2C communication <br/>
-SparkFun Mini GPS (to provide user's current GPS) is connect to Arduino Uno through UART communication <br/>
-SparkFun ESP 8266 (to send data from Arduino Uno to cloud) is connect to Arduino Uno through UART communication <br/>
+- SparkFun Particle Sensor Breakout (to measure user's heartbeat) is connect to Arduino Uno through I2C communication <br/>
+- Grove LCD RGB Backlight Screen (to display user's current health situation) is connect to Arduino Uno through I2C communication <br/>
+- Buzzer v1.2 (to provide auditary alarm in danger) is connect to Arduino Uno through I2C communication <br/>
+- Button v1.2 (to manually turn off sendHelp signal by user's choice) is connect to Arduino Uno through I2C communication <br/>
+- SparkFun Mini GPS (to provide user's current GPS) is connect to Arduino Uno through UART communication <br/>
+- SparkFun ESP 8266 (to send data from Arduino Uno to cloud) is connect to Arduino Uno through UART communication <br/>
 
 Connection Images:
 
 <img src="/images/48372706_337590350408913_3172796451562455040_n.jpg" width="80%">
 
 
-Arduino Code: the code is to collect user's heartbeat information, display current user's health status, and send GPS and BPM to ESP 8266 when in danger. <br/>
-ESP8266 Code: the code is to receive data from the Arduino, and send data to the cloud. <br/>
-Azure Code: the code is to display user's BPM and GPS in real time with charts.<br/>
+- Arduino Code: the code is to collect user's heartbeat information, display current user's health status, and send GPS and BPM to ESP 8266 when in danger. <br/>
+- ESP8266 Code: the code is to receive data from the Arduino, and send data to the cloud. <br/>
+- Azure Code: the code is to display user's BPM and GPS in real time with charts.<br/>
 
 
 ### LCD
